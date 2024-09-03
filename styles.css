@@ -1,0 +1,208 @@
+
+/*sitewide*/
+h1,
+h2,
+h3{
+    font-family: raleway;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(224, 253, 252);
+}
+h2{
+    font-size: 3rem;
+}
+p, li{
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+}
+
+body{
+    background-color: rgb(224, 253, 252);
+}
+.Nav-main{
+    display: flex;
+    padding: 0.75rem;
+    color: rgb(224, 253, 252);
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    height: 10rem;
+    justify-content:space-around;
+    background-color: rgb(5, 33, 75);
+}
+
+.logo
+{
+    width: 5rem ;
+    height: 5rem;;
+}
+
+/*mission*/
+
+.mission{
+    display: flex;
+    height: 30rem;
+    background: url(City\ View\ Apartment_1.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    justify-content: center;
+    align-items: center
+}
+.statement{
+    background-color: rgb(7, 21, 34);
+    opacity: 0.7
+}
+ .statement h2{
+    color: rgb(224, 253, 252);
+    text-align: center;
+    width: 50rem;
+ }
+
+ .statement p{
+    color: rgb(224, 253, 252);
+    text-align: center;
+    width: 50rem;
+ }
+
+ /*getaway*/
+
+ .getaway{
+    display: block;
+    height: 50 rem;
+    width: 100%;
+    margin: auto;
+    flex-shrink: 1;
+    text-align: center;
+ }
+ .description p{
+    display: inline-block;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 5rem;
+    line-height: 2rem;
+ }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .card img{
+    display: flex;
+    width: 25rem;
+    justify-content: space-around;
+    
+ }
+ .card h3{
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ /*build*/
+
+ .build{
+    display:flex;
+    height: 30rem;
+    background: url(Modern\ Home\ Design_1.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.description2{
+    background-color: aliceblue;
+    opacity: 0.6
+}
+.description2 h2{
+    color: rgb(32, 59, 59);
+    font-weight: 500;
+    text-align: center;
+    width: 50rem;
+}
+
+.description2 p{
+    color: rgb(27, 50, 50);
+    font-weight: 700;
+    text-align: center;
+    width: 50rem;
+}
+
+/*team*/
+.team{
+    display: block;
+    height: 50 rem;
+    width: 100%;
+    margin: auto;
+    flex-shrink: 1;
+    text-align: center;
+ }
+ .cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+ }
+.caled img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .caled img{
+    display: flex;
+    Height: 25rem;
+ }
+
+ .caled h3{
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .caled p{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+ /*footer*/
+
+ 
+
+ .footer{
+    display: flex;
+    height: 10rem;
+    background-color: rgb(5, 33, 75);
+    justify-content: space-between;
+}
+.copyright{
+    display: flex;
+    color: rgb(224, 253, 252);
+    align-items: center;
+    padding-left: 3rem;
+   
+}
+.nav2 li{
+    display: flex;
+    padding: 0.75rem;
+    color: rgb(224, 253, 252);
+    align-items: center;
+    margin-right: 3rem
+
+
+}
